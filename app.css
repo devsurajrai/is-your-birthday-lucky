@@ -17,9 +17,6 @@ h1 {
 label {
     display: block;
 }
-
-
-
 #section {
 
     width: 500px;
@@ -83,14 +80,16 @@ footer {
 }
 
 img {
-    width: 70px;
-    height: 70px;
-    margin-left: 90px;
+    width: 50px;
+    height: 50px;
+    padding:5px;
+    margin:20px;
+    }
 
-}
-
-#github_icon {
-    margin-left: 10px;
+#footer-icon-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 #footer_icon_div {
@@ -107,8 +106,6 @@ img {
     background-color: rgba(14, 13, 13, 0.61);
     backdrop-filter: blur(5px);
 }
-
-
 .modal {
 
     width: 80%;
@@ -129,9 +126,6 @@ img {
     background-color: rgba(14, 13, 13, 0.61);
     backdrop-filter: blur(5px);
 }
-
-
-
 .modal_imge {
     width: 80%;
     margin: auto;
@@ -140,9 +134,6 @@ img {
     padding-bottom: 20px;
     border-radius: 20px;
 }
-
-
-
 .modal_hdn {
     margin-top: 20px;
     margin-bottom: 25px;
@@ -170,3 +161,4 @@ img {
     margin-top: 65px;
     
 }
+
