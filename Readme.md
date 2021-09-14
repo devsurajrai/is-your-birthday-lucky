@@ -1,6 +1,6 @@
 # Is your birthday lucky?
 
-# Try it Live: http://is-your-birthday-lucky-01.netlify.app
+### Try it Live: http://is-your-birthday-lucky-01.netlify.app
 
 This program has two varients one is a CLI app that you can find in the CLI folder and the other one is the web app made with the HTML CSS and VannilaJS. This app takes two inputs which are explained below:
 
@@ -33,4 +33,11 @@ As a result if the DOB is divisible by the lucky number then the program shows t
 
        DOB: 11/12/1997
        Lucky Number: 30
+
+## Screenshot 👇
+
+![lucky-birthday](./media/lucky-birthday-main.png)
+![lucky-birthday-result](./media/lucky-birthday-result.png)
+![lucky-birthday-not-lucky](./media/birthday-not-lucky.png)
+
 
