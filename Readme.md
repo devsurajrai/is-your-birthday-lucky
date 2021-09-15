@@ -1,12 +1,14 @@
 # Is your birthday lucky?
 
-### Try it Live: http://is-your-birthday-lucky-01.netlify.app
 
 This program has two varients one is a CLI app that you can find in the CLI folder and the other one is the web app made with the HTML CSS and VannilaJS. This app takes two inputs which are explained below:
 
+#### Try it Live: [Go to the project](http://is-your-birthday-lucky-01.netlify.app)
+
+
 ### i) User Birthday
     
-User has to put in the his/her birthday in the format DDMMYYYY for ex: 11121997 where 11 is the day 12 is the month and 1997 is the year.
+User has to put in the his/her birthday in the format DDMMYYYY.
 
 ### ii) User Lucky Number
 
