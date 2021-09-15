@@ -24,19 +24,25 @@ button.addEventListener('click', clickHandler = () => {
             birthdaySum += lastDigit;
             birthDayValue = Math.floor(birthDayValue / 10);
         }
+        if (luckyNumberValue !== "" && Number(luckyNumberValue) > 0) {
+            error.innerHTML = ""
+            if (birthdaySum % luckyNumberValue == 0) {
+                document.querySelector('#modal_container_true').style.display = 'block'
+            } else {
+                document.querySelector('#modal_container_false').style.display = 'block'
 
-        if (birthdaySum % luckyNumberValue == 0) {
-            document.querySelector('#modal_container_true').style.display = 'block'
-        } else {
-            document.querySelector('#modal_container_false').style.display = 'block'
+            }
+        }
+        else {
+            error.innerHTML = "Please enter a valid input"
+            error.style.color = "red"
 
         }
+
     } else {
         error.innerHTML = "Please enter a valid input"
         error.style.color = "red"
     }
-
-
 })
 
 closeButton[0].addEventListener('click', clickHandler = () => {
