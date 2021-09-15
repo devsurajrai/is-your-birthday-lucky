@@ -8,7 +8,7 @@ This program has two varients one is a CLI app that you can find in the CLI fold
 
 ### i) User Birthday
     
-User has to put in the his/her birthday in the format DDMMYYYY for ex: 11121997 where 11 is the day 12 is the month and 1997 is the year.
+User has to put in the his/her birthday in the format DDMMYYYY.
 
 ### ii) User Lucky Number
 
